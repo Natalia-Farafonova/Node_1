@@ -1,0 +1,30 @@
+{
+  "name": "node_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Natalia-Farafonova/Node_1.git"
+  },
+  "keywords": [],
+  "author": "Natalya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Natalia-Farafonova/Node_1/issues"
+  },
+  "homepage": "https://github.com/Natalia-Farafonova/Node_1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "commander": "^9.0.0",
+    "uuid": "^8.3.2"
+  }
+}
